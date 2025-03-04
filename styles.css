@@ -9,7 +9,7 @@ font-size: 80px;
 
 body
 {
-    background-image: url(tausta.jpg);
+    background-image: url(background.png);
     background-size: cover; /* Make the background image cover the entire area */
     background-position: center; /* Center the background image */
     background-repeat: repeat; /* Prevent the background image from repeating */
