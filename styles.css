@@ -47,6 +47,32 @@ body
     background-color: rgba(50, 50, 50, 0.50);
 }
 
+.tietoa-meista {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(50, 50, 50, 0.50);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.tietoa-meista h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.tietoa-meista p {
+    font-size: 18px;
+}
+
+
+
 @media (max-width: 768px) {
     .container {
         grid-template-columns: auto auto;
