@@ -9,9 +9,11 @@ font-size: 80px;
 
 body
 {
-    background-image: url(nytsetausta.jpg);
+    background-image: url(Index.jpg);
    background-position: center; 
-    background-repeat: repeat; 
+    background-repeat: no-repeat; 
+
+   /* Photo by <a href="https://unsplash.com/@towfiqu999999?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Towfiqu barbhuiya</a> on <a href="https://unsplash.com/photos/orange-and-white-medication-pill-w8p9cQDLX7I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/ 
 
 .container {
     display: grid;
