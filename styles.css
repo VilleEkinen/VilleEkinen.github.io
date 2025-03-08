@@ -9,6 +9,7 @@ font-size: 80px;
 
 body
 {
+    background-color: #f0f0f0;
     background-image: url(Index.jpg);
    background-position: center; 
     background-repeat: no-repeat; 
@@ -54,12 +55,12 @@ body
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(50, 50, 50, 0.50);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 5px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 80%;
+    width: 100%;
     max-width: 600px;
     text-align: center;
 }
