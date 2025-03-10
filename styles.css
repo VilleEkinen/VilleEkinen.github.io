@@ -10,14 +10,14 @@ body
 
    /* Photo by <a href="https://unsplash.com/@towfiqu999999?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Towfiqu barbhuiya</a> on <a href="https://unsplash.com/photos/orange-and-white-medication-pill-w8p9cQDLX7I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/ 
 
-.container {
+container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: rgb(73, 101, 232);
     padding: 10px;
 }
 
-.container > button {
+container > button {
     background-color: rgb(0, 162, 232);
     border: 1px solid rgba(50, 50, 50, 0.50);
     padding: 20px;
@@ -28,12 +28,12 @@ body
     cursor: pointer;
 }
 
-.container > button:hover {
+container > button:hover {
     background-color: lightblue;
     color: black;
 }
 
-.container2 {
+container2 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 0%;
@@ -46,7 +46,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 80px;
 }
 
-.container2 > div {
+container2 > div {
     position: absolute;
     top:31%;
     left: 25%;
@@ -63,7 +63,7 @@ font-size: 80px;
     background-color: rgba(0, 162, 232, 0.3);
 }
 
-.tietoa-meista {
+tietoa-meista {
     position: absolute;
     top: 75%;
     left: 50%;
@@ -78,12 +78,12 @@ font-size: 80px;
     text-align: center;
 }
 
-.tietoa-meista h2 {
+tietoa-meista h2 {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.tietoa-meista p {
+tietoa-meista p {
     font-size: 18px;
 }
 
